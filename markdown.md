@@ -10,7 +10,7 @@
 - Unorder List Item 1
 - Unorder ListItem 2
 - Unorder List Item 3
-`code`
+`var variable = new object();`
 ---
 [title](https://www.google.com)
 ![alt](image url/image.jgp)
@@ -35,8 +35,8 @@ X^2^ (Superscript)
 -[] Task List Item 2
 -[x] Task List Item 3
 Definition List
-: Defenition text line 1
-: Defenition text line 2
+: Definition text line 1
+: Definition text line 2
 
 Emojis
 Heading ID
