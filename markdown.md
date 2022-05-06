@@ -1,3 +1,4 @@
+<!-- Foundational Markdown -->
 # Heading 1
 
 ## Heading 2
@@ -11,16 +12,23 @@
 1. Ordered List Item 1
 2. Ordered List Item 2
 3. Ordered List Item 3
+   1. Nesest List Item 1
+   2. Nested List Item 2
+   3. Nested List Item 3
 
 - Unorder List Item 1
 - Unorder List Item 2
 - Unorder List Item 3
-`var variable = new object();`
+
+\n `var variable = new object();`
 
 ---
-[title](https://www.google.com)
+[link](https://www.google.com "Title")
 ![alt](image url/image.jgp)
 ~~strike through~~
+
+<!-- Github Specific -->
+
 | Table Header 1 | Table Header 2 | Table Header 3 |
 | --- | --- | --- |
 | row 1 data | row 1 data | row 1 data |
@@ -36,16 +44,13 @@
 }
 ```
 
-==Highlight==
-H~2~O (subscript)
-X^2^ (Superscript)
--[x] Task List Item 1
--[] Task List Item 2
--[x] Task List Item 3
-Definition List
-: Definition text line 1
-: Definition text line 2
+* [x] Task List Item 1
+* [ ] Task List Item 2
+* [x] Task List Item 3
+
+<!-- Other flavours of markdown -->
 
 Emojis
 Heading ID
 Footnotes
+defenition lists
